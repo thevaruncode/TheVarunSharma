@@ -184,14 +184,25 @@ margin-block-start: 0px;
     height: 100%;
     object-fit:contain;
 }
+.column2Row3{
+    justify-self: end;
+    align-self: end;
+}
+.column2Row3 img{
+    height: 30px;
+    width:30px;
+   
+}
 
 .column1Row3{
     align-content: end;
+    
 }
 .column1Row2 p{
     font-weight: 400;
-    font-size: 2em;
+    font-size: 2.6em;
 }
+
 
 /*layout for smaller devices*/
 
@@ -214,7 +225,7 @@ margin-block-start: 0px;
         justify-content: center;
     }
 
-    
+
 
 }
 
